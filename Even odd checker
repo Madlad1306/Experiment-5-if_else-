@@ -13,3 +13,8 @@ int main() {
 
     return 0;
 }
+
+//Output:
+//Enter any number
+//1
+//Number is odd
