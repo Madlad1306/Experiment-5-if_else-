@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int choice;
+   cout<<"Choose your favorite F1 team"<<endl;
+   cout<<"1) Ferrari"<<endl<<"2) Mercedes"<<endl<<"3) Red Bull"<<endl<<"4) Mclaren"<<endl<<"5) Williams"<<endl<<"6) Aston Martin"<<endl<<"7) Haas"<<endl<<"8) Alpine"<<endl<<"9) VCARB"<<endl<<"10) Sauber"<<endl<<endl<<"Select number: ";
+   cin>>choice;
+   cout<<endl;
+   switch(choice){
+       case 1:
+       cout<<"You need a therapist bro";
+       break;
+       case 2:
+       cout<<"Abu Dhabhi 2021 (Never Forget)";
+       break;
+       case 3:
+       cout<<"Lewis is an 8 time world champion";
+       break;
+       case 4:
+       cout<<"Lando is overrated";
+       break;
+       case 5:
+       cout<<"You will never be in your prime again";
+       break;
+       case 6:
+       cout<<"Fernando Alonso fanboi (Me too)";
+       break;
+       case 7:
+       cout<<"You fookin wanker";
+       break;
+       case 8:
+       cout<<"You ruined Danny Ric's career";
+       break;
+       case 9:
+       cout<<"Why???";
+       break;
+       case 10:
+       cout<<"Gambling addict";
+       break;
+       default:
+       cout<<"Incorrect choice,pick again";
+       break;
+   }
+    return 0;
+}
+
+//Output;
+//Choose your favorite F1 team
+//1) Ferrari
+//2) Mercedes
+//3) Red Bull
+//4) Mclaren
+//5) Williams
+//6) Aston Martin
+//7) Haas
+//8) Alpine
+//9) VCARB
+//10) Sauber
+
+//Select number: 1
+
+//You need a therapist bro
+
+//=== Code Execution Successful ===
